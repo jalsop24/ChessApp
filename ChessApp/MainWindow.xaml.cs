@@ -23,6 +23,14 @@ namespace ChessApp
         public MainWindow()
         {
             InitializeComponent();
+
+
+
+        }
+
+        private void ButtonAddName_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
