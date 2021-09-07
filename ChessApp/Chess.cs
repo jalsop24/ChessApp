@@ -69,7 +69,7 @@ namespace ChessApp
             if ((Board[startRow, startColumn] == piece) && (canMove))
             {
 
-                /// do stuff
+                /// do even more stuff
 
             }
 
