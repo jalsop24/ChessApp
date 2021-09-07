@@ -10,8 +10,7 @@ using System.Windows;
 namespace ChessApp
 {
 
-
-    public partial class Chess : Application
+    public class Chess
     {
 
         static public string King = "K";
@@ -35,16 +34,12 @@ namespace ChessApp
         static public string BlackKnight = "&#x265E;";
         static public string BlackPawn = "&#x265F;";
 
-        public string Id;
-
         public string[] Moves;
 
         private string[,] Board;
 
-        public Chess(string id)
+        public Chess()
         {
-
-            Id = id;
 
             Moves = new string[200];
 

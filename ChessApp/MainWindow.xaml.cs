@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,13 +25,18 @@ namespace ChessApp
         {
             InitializeComponent();
 
-
-
         }
 
-        private void ButtonAddName_Click(object sender, RoutedEventArgs e)
+
+
+        private void OnClick0(object sender, RoutedEventArgs e)
         {
 
+            Debug.Print("click 0");
+
+            
+
         }
+
     }
 }
